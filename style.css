@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+   /* height: 108px;*/
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left {
+    font-size: 6px;
+    display: flex;
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+    padding-bottom: 23px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+
+}
+
+.nav-right {
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    height: 0%;
+    /* background-color: rgb(159, 159, 222); */
+    /* background-image: url('../img/https://bimaxpress-bucket.s3.ap-south-1.amazonaws.com/assets/EMIXCHANGE++LOGO+BOLD+BW-01.jpg'); */
+    margin-top: 12px;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url('../img/slide1.jpg');
+    position: absolute;
+    width: 890px;
+    height: 358px;
+    opacity: 0.15;
+    border-radius:12px;
+    z-index:-1;
+}
+
+.content-left {
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+}
+
+.content-right {
+    /* width: 50%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 210px;
+    width: 330px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.home-Articles {
+    /*height:455px;*/
+    background-color: rgb(212, 154, 154,0.5);
+    padding: 18px;
+    margin-top: 23px;
+    position:relative;
+}
+.Year-box{
+   position:absolute; 
+   right:419px;
+   top:100px;
+   width:234px;
+   height:255px;
+   font-size:18px;
+}
+.Year-box div{
+ margin:12px 0px;
+}
+
+.home-article {
+    display: flex;
+    padding: 50px;
+    margin: -25px;
+    height:400px;
+    flex-direction: column;
+    width: 215px;
+
+}
+
+.home-article img {
+    width: 235px;
+    height:200px;
+
+}
+
+.home-article-content {
+    /*align-self: center;*/
+    padding: 25px;
+}
+.home-article-content a{
+text-decoration: none;
+color:black;
+}
+.footer {
+    height: 55px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.footer a {
+    color: black;
+}
